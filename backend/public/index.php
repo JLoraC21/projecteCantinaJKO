@@ -8,6 +8,11 @@
     <script type="module" src="http://localhost:5173/src/js/main.js"></script>
 </head>
 <body>
-    
+    <header>
+        <?php require './includes/header.php'; ?>
+    </header>
+    <footer>
+        <?php require './includes/footer.php'; ?>
+    </footer>
 </body>
 </html>
