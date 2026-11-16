@@ -1,0 +1,19 @@
+#hd {
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+        "img tt tt . . . . . . . . nv";
+
+    #divLogo {
+        grid-area: img;
+    }
+
+    #titol {
+        grid-area: tt;
+    }
+
+    #nav {
+        grid-area: nv;
+    }
+}
