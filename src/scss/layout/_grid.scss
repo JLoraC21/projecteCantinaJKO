@@ -17,3 +17,22 @@
         grid-area: nv;
     }
 }
+
+#ft {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+        ". cd cd . adr adr adr adr adr . inf .";
+
+    #cdlg {
+        grid-area: cd;
+    }
+
+    #adr {
+        grid-area: adr;
+    }
+
+    #infG {
+        grid-area: inf;
+    }
+}
