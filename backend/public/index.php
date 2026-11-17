@@ -6,7 +6,6 @@
     <title>Index</title>
     <script type="module" src="http://localhost:5173/@vite/client"></script>
     <script type="module" src="http://localhost:5173/src/js/main.js"></script>
-    <link rel="stylesheet" href="../../src/scss/style.scss">
 </head>
 <body>
     <header>
